@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+    <style>
+        div {
+            display: inline-block; /*alinha as div em linha*/
+            height: 20px; /*altura da div*/
+            width: 70px; /*largura da div*/
+            background-color: lightgray; /*cor de fundo da div*/
+            text-align: center; /* alinhamento do texto*/
+            border: 1px solid black; /*borda*/
+            border-radius: 10px; /*suavidade da ponta da borda*/
+            padding: 5px;
+        }
+        div:hover > p {
+            display: block;
+            background-color: rgb(61, 102, 104);
+            color: white;
+        }
+
+        div > p {
+            display: none;
+        }
+        div:hover {
+            height: 100px;
+            width: 90px;
+            background-color: cadetblue;
+            text-align: center;
+        }
+        .paragrafo {
+            color: white;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        MENU
+        <p><a href="hover.html" class="paragrafo">MEU</a></p>
+    </div>
+    <div>
+        02
+        <p>PRIMEIRO</p>
+    </div>
+    <div>
+        03
+        <p>SITE</p>
+    </div>
+</body>
+</html>

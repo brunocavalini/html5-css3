@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        
+        /* Nesta REGRA @font-face, criei uma declaração onde no "font-family eu dei o nome pra familia da nova fonte, usei o valor "src: url()" para buscar onde a fonte estava e o valor "format()" para indicar o formato do arquivo, fiz uma outra declaração de "src: url() caso a primeira fonte der errado."*/
+        @font-face {
+            font-family: 'Analogist';
+            src: url('fonts/Analogist.otf') format('opentype'), url('fonts/Analogist.ttf') format('truetype');
+        }
+        h1 {
+            font-family: Analogist, 'Times New Roman', Times, serif;
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, voluptatum commodi. Harum accusantium quia vitae delectus modi libero ad fugit nulla expedita ex consequatur rem, labore ipsam impedit sit atque.</p>
+</body>
+</html>

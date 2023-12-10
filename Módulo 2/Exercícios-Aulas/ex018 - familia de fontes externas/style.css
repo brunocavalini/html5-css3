@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/*PEGUEI OS LINKS DO GOOGLE FONTES PARA TESTES:
+1) ACHAR A FONTE E COPIAR SEU LINK
+2) COLAR O LINK AQUI NO TOPO DA CSS PORQUE SÃO REGRAS E AS REGRAS FICAM NAS PRIMEIRAS LINHAS, NO TOPO DO CÓDIGO.
+3) PUXE A FONT-FAMILY OU A SHORTHAND FONT: COM O NOME DA FONTE.*/
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+        
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&display=swap');
+
+body {
+    background-image: linear-gradient(to bottom, #396E8F, #2786C2);
+    font-family: 'Hedvig Letters Sans', Arial, sans-serif;
+    background-attachment: fixed;
+}
+main {
+    background-color: rgba(255, 255, 255, 0.411);
+    width: 600px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #274c63a8;
+}
+h1{
+    font: bold 2.5em 'Fredericka the Great', Arial, sans-serif;
+    color: #0097F5;
+    text-shadow: 1px 1px 0px #374E5C;
+    background-color: #374e5c91;
+    border-radius: 10px;
+    text-align: center;
+}
+h2 {
+    font: bold 1.7em 'Fredericka the Great', Arial, sans-serif;
+    color: #374E5C ;
+    text-shadow: 1px 1px 0px #0097F5;
+    background-color: #374e5c91;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+p {
+    text-align: justify;
+}

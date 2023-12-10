@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídia</title>
+    
+</head>
+<body>
+    <h1>Minha foto como imagem dinâmica</h1>
+    <p>Abaixo estarei fazendo um teste com <strong><abbr title="&lt;picture&gt;, &lt;img&gt; e &lt;source: media: type&gt;">códigos de imagens</abbr></strong> para transformar minha foto em uma imagem dinâmica para diversos tipos de telas.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/bruno-p.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="imagens/bruno-m.jpg" type="image/jpg">
+        <img src="imagens/bruno-g.jpg" alt="Imagem dinâmica">
+    </picture>
+    
+</body>
+</html>

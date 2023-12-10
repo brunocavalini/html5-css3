@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            background-color: dimgray;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+        header {
+            background-color: white;
+            margin: 10px;
+            padding: 10px;
+        }
+        nav {
+            background-color: rgb(95, 95, 95);
+            padding: 8px;
+            margin: auto;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);
+        }
+        nav > a {
+            text-decoration: none;
+            font-weight: bold;
+            color: rgb(255, 255, 255);
+            margin-right: 20px;
+            
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        main {
+            background-color: white;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);
+        }
+        article {
+            background-color: rgb(230, 230, 230);
+            margin-top: 5px;
+            margin-bottom: 8px;
+            padding-top: 1px;
+            border-radius: 5px;
+            margin: 5px 8px 8px 8px;
+        }
+        article > aside {
+            background-color: rgb(182, 182, 182);
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            margin: 0;
+        }
+        footer > p {
+            margin: 0px;
+        }
+        .article {
+            margin-left: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <article>
+                <h2 class="article">Esportes, Política e Tecnologia</h2>
+                <p class="article">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores, eos, distinctio ipsam, repellat aperiam vitae nihil vel iusto minima aut nisi ipsa possimus commodi! Sed architecto officia omnis excepturi nemo. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta vel nostrum eius hic vitae similique, a ratione, veritatis aspernatur ab quas maiores magnam architecto. Non iure saepe maxime soluta modi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit suscipit fugiat vitae optio? Sed iusto ex ad pariatur, nam dicta modi praesentium quod labore eius corrupti, nesciunt, quaerat ipsam totam.</p>
+                <aside>
+                     <p class="article">Escrito por Pedrinho Antonio</p>
+                </aside>
+            </article>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2 class="article">Notícias do  Brasil</h2>
+                <p class="article">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, vel? Magni eveniet voluptatem ea maiores, dolor natus commodi nisi beatae quod reprehenderit. Mollitia quis quibusdam, nesciunt dolorem culpa aperiam unde? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam nihil, doloribus cupiditate voluptatibus id consequuntur! Magni ut magnam quis numquam, sequi id accusantium obcaecati, laudantium, rem provident mollitia dolore architecto! Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident necessitatibus unde ipsum praesentium, similique molestiae corporis minus enim amet, quidem aut ea eaque maxime officia ratione ducimus temporibus, molestias commodi.</p>
+                <aside>
+                    <p class="article">Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Bruno Cavalini</p>
+    </footer>
+</body>
+</html>

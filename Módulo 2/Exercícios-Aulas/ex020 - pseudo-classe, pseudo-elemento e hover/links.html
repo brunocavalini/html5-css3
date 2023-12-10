@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /*  SELETORES PERSONALIZADOS
+            #   = id
+            .   = class
+            :   = pseudo-class
+            ::  = pseudo-element
+            >   = children
+        */
+        a:link {                          /* pseudo-class */
+            color: blue;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        a:visited {                        /* pseudo-class */
+            color: red;
+        }
+        a:hover {                           /* pseudo-class */
+            color: green;
+            text-decoration: underline;     
+        }
+        a:active {                          /* pseudo-class */
+            color: blue;
+        }
+        a::after {                          /* pseudo-element */
+            content:' [link]';
+            color: black;
+            text-decoration: none;
+            font-weight: normal;
+        }
+        a::before {                         /* pseudo-element */
+            content: '[link] ';
+            color: black;
+            text-decoration: none;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://www.instagram.com/brunocavalini/" target="_blank" rel="external">Perfil do Instagram</a></li>
+        <li><a href="https://www.facebook.com/br.cavalini/" target="_blank" rel="external">Perfil do Facebook</a></li>
+        <li><a href="https://www.youtube.com/channel/UC3c2UvQyjeOx9bUL0FSuxSg" target="_blank" rel="external">Canal do YouTube</a></li>
+    </ul>
+    
+</body>
+</html>
